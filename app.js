@@ -37,13 +37,18 @@ function sortearAmigo (){
         resultado.innerHTML = `Tu amigo sorteado es: ${compis[numeroGenerado]}`;
         let lista = document.getElementById("listaAmigos");
         lista.innerHTML = "";
-        
-        compis = [];
-
-
-
     }
 
+
+
+}
+
+function reiniciarJuego(){
+    compis = [];
+    let lista = document.getElementById("listaAmigos");
+    lista.innerHTML = "";
+    let resultado= document.getElementById('resultado');
+    resultado.innerHTML="";
 
 
 }

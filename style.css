@@ -87,6 +87,12 @@ body {
     font-size: 16px;
 }
 
+.father {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
 .button-container {
     width: 300px;
     justify-content: center;
